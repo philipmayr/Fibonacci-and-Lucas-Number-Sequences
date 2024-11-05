@@ -19,7 +19,7 @@ def f_and_l_of_n(n):
     
     
 def main():
-    while(True):
+    while (True):
         length = input("Enter Fibonacci and Lucas number sequence length: ")
         
         index = 0
@@ -27,7 +27,7 @@ def main():
         Fibonacci_numbers = []
         Lucas_numbers = []
         
-        while(index < int(length)):
+        while (index < int(length)):
             Fibonacci_number, Lucas_number = f_and_l_of_n(index)
             Fibonacci_numbers.append(str(Fibonacci_number))
             Lucas_numbers.append(str(Lucas_number))
