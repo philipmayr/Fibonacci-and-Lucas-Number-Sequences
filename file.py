@@ -5,7 +5,7 @@ Symmetric Relation of Fibonacci and Lucas Number Sequences
 import math
 
 
-def f_and_l_of_n(n):  
+def f_and_l_of_n(n):
     # f(n) is the nth Fibonacci number, l(n) the nth Lucas number
     
     # φ, the golden ratio
@@ -35,17 +35,17 @@ def main():
             
         Fibonacci_numbers = ' '.join(Fibonacci_numbers)
         Lucas_numbers = ' '.join(Lucas_numbers)
-            
+        
         print()
         
         print("Here are the first " + length + " Fibonacci numbers: ")
         print(Fibonacci_numbers)
-
+        
         print()
         
         print("Here are the first " + length + " Lucas numbers: ")
         print(Lucas_numbers)
-
+        
         print("\n⋄⋄⋄\n")
 
 
